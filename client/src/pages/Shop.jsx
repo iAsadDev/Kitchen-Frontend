@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react";
 import axios from "axios";
 import { FaShoppingCart, FaSearch } from "react-icons/fa";
-import { useCart } from "../context/cartContext";
+import { useCart } from "../context/CartContext";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
