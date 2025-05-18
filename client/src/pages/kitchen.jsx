@@ -3,7 +3,7 @@ import axios from 'axios';
 import { FaShoppingCart, FaSearch, FaBoxOpen } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { CartContext } from '../context/cartContext';
+import { CartContext } from '../context/CartContext';
 
 const Kitchen = () => {
   const [products, setProducts] = useState([]);
